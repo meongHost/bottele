@@ -1,0 +1,15 @@
+{
+  "name": "webhook-telegram",
+  "version": "1.0.0",
+  "description": "Webhook to Telegram Forwarder",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "node api/webhook.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
